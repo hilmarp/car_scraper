@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/hilmarp/car_scraper/issues"
   },
-  "homepage": "https://github.com/hilmarp/car_scraper"
+  "homepage": "https://github.com/hilmarp/car_scraper",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "express": "^4.10.7",
+    "request": "^2.51.0"
+  }
 }
