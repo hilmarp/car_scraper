@@ -1,0 +1,6 @@
+{
+  "name": "US.is web scraper",
+  "description": "Web scraper",
+  "repository": "https://github.com/hilmarp/car_scraper.git",
+  "keywords": ["node", "express", "cheerio"]
+}

@@ -4,21 +4,23 @@
   "description": "US.is web scraper",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/hilmarp/car_scraper.git"
   },
   "author": "Hilmar",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hilmarp/car_scraper/issues"
   },
-  "homepage": "https://github.com/hilmarp/car_scraper",
   "dependencies": {
     "cheerio": "^0.18.0",
-    "express": "^4.10.7",
+    "express": "~4.9.x",
     "request": "^2.51.0"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
