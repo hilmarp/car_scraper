@@ -4,6 +4,9 @@ var request = require('request');
 var cheerio = require('cheerio');
 var app     = express();
 
+// Heroku port
+app.set('port', (process.env.PORT || 5000));
+
 app.get('/car/:number', function(req, res) {
 
 	// Ná í bílnúmer úr params
@@ -68,5 +71,6 @@ app.get('/car/:number', function(req, res) {
 
 });
 
-app.listen('3000');
-console.log('Server er i gangi a porti 3000');
+app.listen(app.get('port'), function() {
+	console.log("Server i gangi a porti: " + app.get('port'));
+});
